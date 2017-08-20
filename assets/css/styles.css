@@ -32,13 +32,6 @@
 			}
 		header {
 			width:100%;
-			background-color: #ffffff;
-			border-bottom: #cccccc;
-			border-bottom-color: #cccccc;
-			border-bottom-width: 100%;
-			border-bottom-style: solid;
-			border-bottom-width: 2px;
-			height: 100px;
 			}
 
 		h1 {
@@ -57,12 +50,10 @@
 
 
 		nav { 
-				line-height: 80px;
-				text-align: center;	
-				color:#a4a1a4;
-				right: 0;
-				bottom: 0;
-				width:260px;
+			text-align: center;	
+			color:#a4a1a4;
+			right: 0;
+			bottom: 0;
 			}
 		nav a:link {
 			color: #a7a2a7;
@@ -75,8 +66,7 @@
 			color: #ff0000; 
 			text-decoration: underline;
 			}
-		#namebox {
-			width: 223px; 
+		#namebox { 
 			height:80px; 
 			background-color: #4aaaa5;
 			text-align: center;
@@ -86,12 +76,9 @@
 			font-size: 28px;
 			font-weight: bold;
 			font-family: Georgia, Times, "Times New Roman", serif;
-			float:left;
 			vertical-align: bottom;
 		}
-		section {
-			padding-top:35px;
-		}
+
 		#contactbox {
 			background: #ffffff;
 			border-color: #dddddd;
@@ -107,22 +94,7 @@
 			display: block;
 			clear: both;
 		}
-		.tileleft {
-			float: left;
-			max-width: 265px;
-			max-height: 198px;
-			border: none;
-			margin: 0px 20px 20px 0px;
-			overflow: auto;
-		}
-		.tileright {
-			float: left;
-			max-width: 265px;
-			max-height: 198px;
-			border: none;
-			margin: 0px 0px 20px 20px;
-			overflow: auto;
-		}
+	
 		.tileleft, .tileright, #iconcard img, {
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}
@@ -184,57 +156,7 @@
 
 			section {
 				width: 620px;
-			}
-
-			#main {
-				width: 355px;
-				float: left;
-			}
-
-
-			#contactbox {
-				width:228px;
-				padding: 10px;
-				margin-left: 15px;
-				float: right;
-			}
-
-			.iconpad {
-				margin-right: 10px;
-
-			}
-
-			h2 {
-				padding-top: 5px;
-    			padding-bottom: 10px;
-    		}
-			
-			.iconsize {
-				width: 52px;
-				height: 52px;
-
-			}
-			#heading, #footertext, section {
-		    width: 620px;
-		    margin: auto;
-			}
-
-			.biopic { 
-				width: 304px;
-				height: 304px;
-				padding: 0px 20px 10px 25px;
-			}
-
-			
-		}
-
-		@media only screen and (max-width: 980px) {
-			#content { 
-				display: inline-block; 
-			}
-
-			section {
-				width: 620px;
+				padding-top:35px;
 			}
 
 			#main {
@@ -250,6 +172,128 @@
 				float: right;
 				text-align: center;
 			}
+
+			
+			.iconsize {
+				width: 52px;
+				height: 52px;
+
+			}
+			
+			.iconpad {
+				margin-right: 10px;
+
+			}
+
+			h2 {
+				padding-top: 5px;
+	    		padding-bottom: 10px;
+    		}
+			
+			header {
+				height: 80px;
+				background-color: #ffffff;
+				border-bottom: #cccccc;
+				border-bottom-color: #cccccc;
+				border-bottom-width: 100%;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+			}
+
+			#heading, #footertext, section {
+			    width: 620px;
+			    margin: auto;
+			}
+
+			.biopic { 
+				width: 304px;
+				height: 304px;
+				padding: 0px 20px 10px 25px;
+			}
+
+			nav {
+				float: right;
+				width:260px;
+				line-height: 80px;
+			}
+
+			#namebox {
+				width: 223px;
+				float:left;
+			}
+
+			.navlink {
+				display: inline;
+				padding-left: 10px;
+			}
+
+			.navlinkborder {
+				border-right-style: solid;
+				border-right-color: #eeeeee;
+				border-right-width: thin;
+				padding-right:20px;
+			}
+
+			.tileright, .tileleft {
+				width: 315px;
+				padding-left: 20px;
+				padding-bottom: 20px;
+				border: none;
+			}
+			
+			label {
+				display: block;
+				color:#76797e;
+			}
+			input, textarea {
+				margin-bottom: 20px;
+				margin-top: 5px;
+				border-width: thin;
+				border-style: solid;
+				border-color: #dddddd;
+				width: 100%;
+				padding:5px;
+			}
+			form {
+				padding: 0px 35px 20px 25px;
+			}
+
+			.btn {
+				background-color: #4aaaa6;
+				color: #ffffff;
+				padding: 10px;
+				border: none;
+				font-weight: bold; 
+				font-size: 16px;
+			}
+
+			
+		}
+
+		@media only screen and (max-width: 980px) {
+			#content { 
+				display: inline-block; 
+			}
+
+			section {
+				width: 620px;
+				padding-top:35px;
+			}
+
+			#main {
+				width: 355px;
+				float: left;
+			}
+
+
+			#contactbox {
+				width:228px;
+				padding: 10px;
+				margin-left: 15px;
+				float: right;
+				text-align: center;
+			}
+
 			
 			.iconsize {
 				width: 52px;
@@ -267,10 +311,19 @@
     			padding-bottom: 10px;
     		}
 			
+			header {
+				height: 80px;
+				background-color: #ffffff;
+				border-bottom: #cccccc;
+				border-bottom-color: #cccccc;
+				border-bottom-width: 100%;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+			}
 
 			#heading, #footertext, section {
-		    width: 620px;
-		    margin: auto;
+			    width: 620px;
+			    margin: auto;
 			}
 
 			.biopic { 
@@ -280,10 +333,50 @@
 			}
 
 			nav {
-				float: right;	
+				float: right;
+				width:260px;
+				line-height: 80px;	
+			}
+			#namebox {
+				width: 223px;
+				float:left;
+			}
+
+			.navlink {
+				display: inline;
+				padding-left: 10px;
+			}
+
+			.navlinkborder {
+				border-right-style: solid;
+				border-right-color: #eeeeee;
+				border-right-width: thin;
+				padding-right:20px;
+
+			}
+
+			.tileright, .tileleft {
+				width: 315px;
+				padding-left: 20px;
+				padding-bottom: 20px;
+				border: none;
+			}
+
+			form {
+				padding: 0px 35px 20px 25px;
+			}
+
+			.btn {
+				background-color: #4aaaa6;
+				color: #ffffff;
+				padding: 10px;
+				border: none;
+				font-weight: bold; 
+				font-size: 16px;
 			}
 			
 		}
+
 
 		@media only screen and (max-width: 768px)  {
 			#content { 
@@ -295,6 +388,7 @@
 
 			section {
 				width: 655px;
+				padding-top:25px;
 			}
 
 			#main {
@@ -322,9 +416,20 @@
 				height: 56px;
 
 			}
+
+			header {
+				height: 80px;
+				background-color: #ffffff;
+				border-bottom: #cccccc;
+				border-bottom-color: #cccccc;
+				border-bottom-width: 100%;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+			}
+
 			#heading, #footertext, section {
-		    width: 655px;
-		    margin: auto;
+			    width: 655px;
+			    margin: auto;
 			}
 
 			.biopic { 
@@ -335,10 +440,58 @@
 			}
 
 			nav {
-				float: right;	
+				float: right;
+				width:260px;
+				line-height: 80px;	
 			}
 
-			
+			#namebox {
+				width: 223px;
+				float:left;
+			}
+
+			.navlink {
+				display: inline;
+				padding-left: 10px;
+			}
+
+			.navlinkborder {
+				border-right-style: solid;
+				border-right-color: #eeeeee;
+				border-right-width: thin;
+				padding-right:20px;
+			}
+
+			.tileleft {
+				float: left;
+				width: 290px;
+				border: none;
+				padding-left: 20px;
+    			padding-bottom: 20px;
+				overflow: auto;
+			}
+			.tileright {
+				float: right;
+				width: 290px;
+				border: none;
+				padding-right: 20px;
+    			padding-bottom: 20px;
+				overflow: auto;
+			}
+
+			form {
+				padding: 0px 35px 20px 25px;
+			}
+
+			.btn {
+				background-color: #4aaaa6;
+				color: #ffffff;
+				padding: 10px;
+				border: none;
+				font-weight: bold; 
+				font-size: 16px;
+			}
+
 		}
 
 		@media only screen and (max-width: 640px) {
@@ -378,14 +531,21 @@
 				height: 37px;
 
 			}
-			#heading, #footertext, section {
-		    width: 360px;
-		    margin: auto;
+
+			header {
+				height: 110px;
+				background-color: #4aaaa5;
+			}
+			
+			#heading {
+				width:100%;
+				background-color: #ffffff;
 			}
 
-			#heading { 
-			background-color: #ffffff;
-			 }
+			#footertext, section {
+			    width: 360px;
+			    margin: auto;
+			}
 
 			.biopic { 
 				width: 301px;
@@ -395,17 +555,48 @@
 			}
 
 			nav {
-				display: block;
+				width: 100%;
+				line-height: 30px;
 				background-color: #ffffff;
+				border-bottom: #cccccc;
+				border-bottom-color: #cccccc;
+				border-bottom-width: 100%;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+				}
+			#namebox {
 				width: 100%;
-				text-align: justify;
-			}
-			#namebox { 
-				width: 100%;
-				clear: both;
 			}
 
-			
+			.navlink {
+				text-align: center;
+				display: inline-block;
+				width:100px;
+			}
+
+			.tileright, .tileleft {
+				clear: both;
+				width: 320px;
+				padding-left: 20px;
+				padding-bottom: 20px;
+				padding-right: 10px;
+				border: none;
+				float: left;
+				
+			}
+
+			form {
+				padding: 0px 35px 20px 25px;
+			}
+
+			.btn {
+				background-color: #4aaaa6;
+				color: #ffffff;
+				padding: 10px;
+				border: none;
+				font-weight: bold; 
+				font-size: 16px;
+			}
 		}
 	
 

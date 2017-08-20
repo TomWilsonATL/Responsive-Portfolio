@@ -6,7 +6,6 @@
 	<meta name="author" content="Tom Wilson">
 	<title>Portfolio - Tom Wilson | Full Stack Web Developer</title>
 	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -20,31 +19,21 @@
 
 	<!-- TOP NAV LINKS -->
 	<nav>
-		<a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+		<a href="index.html" class="navlink navlinkborder">About</a> 
+		<a href="portfolio.html" class="navlink navlinkborder">Portfolio</a>
+		<a href="contact.html" class="navlink">Contact</a>
 	</nav>
-</div>
+</div> <!-- heading -->
 </header>
 
 <section>
-<!-- CONNECT WITH ME BOX -->
-<aside>
-<div id="contactbox">
-    <h2>Connect With Me</h2>
-    <hr class="hrline">
-    <div id="iconcard">
-		<a href="https://github.com/TomWilsonATL" target="_blank"><img src="assets/images/github-icon-60x60.png" class="iconpad" border="0" alt="GitHub" title="View Tom's GitHub profile"></a>
-		<a href="https://www.linkedin.com/in/thomas-wilson-076307145/" target="_blank"><img src="assets/images/linked-in-icon-60x60.png" border="0" class="iconpad" alt="LinkedIn" title="View Tom's LinkedIn profile"></a>
-		<a href="https://stackexchange.com/users/11220577/tomw-atl" target="_blank"><img src="assets/images/stackoverflow-icon60x60.png" border="0" alt="Stack Overflow" title="View Tom's Stock Overflow profile"></a>
-	</div>
-</div>
-</aside>
 
-	<!-- MAIN CONTENT -->
-	<div id="main">
+	<div id="content">
+	
+		<div id="main">
 		<h1>Portfolio</h1>
 		<hr class="hrline">
 		
-		<div class="clearfix">
 			<!-- PORTFOLIO IMAGE PLACEHOLDERS -->
 			<img src="assets/images/hangman265x198.jpg" class="tileleft" alt="Hangman" title="Hangman">
 
@@ -55,12 +44,26 @@
 			<img src="assets/images/rutgers-info-widget265x198.jpg" class="tileright" alt="Rutgers Info Widget" title="Rutgers Info Widget">
 
 			<img src="assets/images/rock-paper-scissors265x198.jpg" class="tileleft" alt="Rock Paper Scissors" title="Rock Paper Scissors">
-		</div>
+		
+	</div> <!-- main -->
+	
 
 
+			<!-- CONNECT WITH ME BOX -->
+		<div id="contactbox">
+			<div class="connectpad">
+			    <h2>Connect With Me</h2>
+			    <hr class="hrline">
+			    <div id="iconcard">
+					<a href="https://github.com/TomWilsonATL" target="_blank"><img src="assets/images/github-icon-60x60.png" class="iconpad iconsize" border="0" alt="GitHub" title="View Tom's GitHub profile"></a>
+					<a href="https://www.linkedin.com/in/thomas-wilson-076307145/" target="_blank"><img src="assets/images/linked-in-icon-60x60.png" border="0" class="iconpad iconsize" alt="LinkedIn" title="View Tom's LinkedIn profile"></a>
+					<a href="https://stackexchange.com/users/11220577/tomw-atl" target="_blank"><img src="assets/images/stackoverflow-icon60x60.png" border="0" class="iconsize" alt="Stack Overflow" title="View Tom's Stock Overflow profile"></a>
+				</div> <!-- iconcard -->
+			</div>
+		</div> <!-- contactbox -->
+	</div> <!--- content -->
 
-	</div>
-	<div class="clearfix"></div>
+<div class="clearfix"></div>
 
 </section>
 
